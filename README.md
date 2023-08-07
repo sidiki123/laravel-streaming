@@ -15,28 +15,37 @@ Configurations requises
 Suivez les étapes ci-dessous pour installer et exécuter l'application :
 
 1. Télécharger ou clonez le dépôt à l'aide de la commande suivante :
-git clone https://github.com/
+git clone https://github.com/sidiki123/laravel-streaming.git
 
 2. Accédez au répertoire de l'application :
 
+```bash
 cd nom-du-depot
+```
 
 3. Installez les dépendances PHP à l'aide de Composer :
 
+```bash
 composer install
+```
 
 4. Copiez le fichier `.env.example` et renommez-le en `.env`
 
+```bash
 cp .env.example .env
+```
 
 5. Générez une nouvelle clé d'application :
 
+```bash
 php artisan key:generate
+```
 
 6. Exécutez les migrations :
 
+```bash
 php artisan migrate
-
+```
 
 De plus, vous devez installer FFMpeg et FFProbe :
 
@@ -47,8 +56,10 @@ De plus, vous devez installer FFMpeg et FFProbe :
 3. Vous pouvez également configurer les chemins vers les binaires directement dans le fichier `.env` de votre application en ajoutant les lignes suivantes :
 Dans cet exemple, le dossier décompréssé se trouve à la racinde de votre disque.
 
+```bash
 FFMPEG_BINARIES=C:/chemin/vers/ffmpeg.exe
 FFPROBE_BINARIES=C:/chemin/vers/ffprobe.exe
+```
 
 
 
