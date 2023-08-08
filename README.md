@@ -20,7 +20,7 @@ git clone https://github.com/sidiki123/laravel-streaming.git
 2. Accédez au répertoire de l'application :
 
 ```bash
-cd nom-du-depot
+cd laravel-streaming
 ```
 
 3. Installez les dépendances PHP à l'aide de Composer :
@@ -53,14 +53,13 @@ De plus, vous devez installer FFMpeg et FFProbe :
 
 2. Après avoir téléchargé le fichier, décompresser le.
 
-3. Vous pouvez également configurer les chemins vers les binaires directement dans le fichier `.env` de votre application en ajoutant les lignes suivantes :
-Dans cet exemple, le dossier décompréssé se trouve à la racinde de votre disque.
+3. Ensuite vous devez également configurer les chemins vers les binaires directement dans le fichier `.env` de votre application en ajoutant les lignes suivantes :
 
 ```bash
 FFMPEG_BINARIES=C:/chemin/vers/ffmpeg.exe
 FFPROBE_BINARIES=C:/chemin/vers/ffprobe.exe
 ```
-
+Dans cet exemple, le dossier décompréssé se trouve à la racine de votre disque.
 
 
 ## Liens utiles

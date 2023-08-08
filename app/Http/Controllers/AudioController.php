@@ -11,6 +11,18 @@ use App\Jobs\ConvertAudioForDownloading;
 class AudioController extends Controller
 {
     /**
+     * Affiche la page d'acceuil.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function home()
+    {
+        // Retourne la vue de la page d'acceuil de l'application.
+        return view('welcome');
+    }
+
+
+    /**
      * Affiche la liste des fichiers audio enregistrés.
      *
      * @return \Illuminate\View\View
